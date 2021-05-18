@@ -22,7 +22,7 @@ public class Try_Catch_Automation {
 //		// Set condition.
 //		if (!webStatus.getAttribute("value").contains("error")) {
 //			try {
-//				// Do some code in "try" 
+//				// Do some code in "try"
 //				System.out.println("log in try");
 //				JSONObject obj = new JSONObject(element.getAttribute("value"));
 //				cmsInfo = new CMSInfo[1];
@@ -36,14 +36,15 @@ public class Try_Catch_Automation {
 //				JSONArray info = new JSONArray(element.getAttribute("value"));
 //				cmsInfo = new CMSInfo[info.length()];
 //				status = new String[info.length()];
+//
 //				for (int i = 0; i < info.length(); i++) {
 //					cmsInfo[i] = new CMSInfo(info.getJSONObject(i));
 //					status[i] = cmsInfo[i].getSignatureStatus();
 //				}
 //				return status;
-//			// do something finally	
+//			// do something finally
 //			} finally {
-//				
+//
 //			}
 //		}
 //		return status;

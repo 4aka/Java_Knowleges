@@ -33,7 +33,5 @@ public class Try {
 			System.out.println("Warning: Some Other exception");
 		}
 		System.out.println("Out of try-catch block...");
-
 	}
-
 }
